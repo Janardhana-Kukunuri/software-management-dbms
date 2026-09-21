@@ -27,7 +27,8 @@ INSERT INTO License (License_Key, Expiry_Date, Cost, Software_ID) VALUES
 ('DV-1234-ABC9-9988', '2027-02-15', 2500.00, 2);
 
 -- Insert Sample Releases
-INSERT INTO Release (Release_Version, Release_Date, Software_ID) VALUES
-('v1.0.0', '2026-01-20', 1),
-('v1.2.0', '2026-03-01', 1),
+-- Insert Sample Releases 
+INSERT INTO `Release` (Release_Version, Release_Date, Software_ID) VALUES 
+('v1.0.0', '2026-01-20', 1), 
+('v1.2.0', '2026-03-01', 1), 
 ('v2.0.1', '2026-04-10', 2);
